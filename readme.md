@@ -1,6 +1,6 @@
-#Extension blocks click-to-move feature on https://chess.com.
+# Extension blocks click-to-move feature on https://chess.com.
 
-##You need to have one of those options enabled:
+## You need to have one of those options enabled:
 - Settings > Board > Highlight Moves
 - Settings > Board > Show legal moves
 
