@@ -1,4 +1,4 @@
-# Extension blocks click-to-move feature on https://chess.com.
+# Google Chrome extension to block click-to-move feature on https://chess.com.
 
 ## You need to have one of those options enabled:
 - Settings > Board > Highlight Moves
