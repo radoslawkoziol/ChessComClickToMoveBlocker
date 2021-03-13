@@ -1,0 +1,19 @@
+{
+  "name": "Chess.com click-to-move blocker",
+  "version": "1.0",
+  "description": "Extension blocks click-to-move feature on https://chess.com",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "*://chess.com/*", "*://www.chess.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
