@@ -21,7 +21,7 @@ const chessBoardCollection = document.getElementsByTagName('chess-board');
 if (chessBoardCollection.length > 0) {
   chessBoardCollection[0].addEventListener('click', chessBoardHandler)
   const layoutBoardSection = document.getElementsByClassName('layout-board-section');
-  const boardLayoutMain = document.getElementById('board-layout-main').addEventListener('click', sectionHandler)
+  const boardLayoutMain = document.getElementById('board-layout-main');
   if (layoutBoardSection.length > 0) {
     layoutBoardSection[0].addEventListener('click', sectionHandler)
   } else if (boardLayoutMain) {
