@@ -1,9 +1,7 @@
-# Google Chrome extension to block click-to-move feature on https://chess.com.
-
-## You need to have one of those options enabled:
-- Settings > Board > Highlight Moves
-- Settings > Board > Show legal moves
-
-You can find it by clicking on the cogwheel icon in the top-right corner of the board.
+# Google Chrome extension to block click-to-move feature on https://chess.com
 
 Big thanks to https://github.com/trurl-master!
+
+## Non Chrome solutions:
+
+[A gist using the same idea](https://gist.github.com/trurl-master/27749b6dff46cec9af0a845fe6916c8e)
