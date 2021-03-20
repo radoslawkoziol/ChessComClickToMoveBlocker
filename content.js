@@ -33,7 +33,6 @@ const adjustPiecesClickability = (chessBoard) => {
 };
 
 const chessBoardPointerDownHandler = (e, chessBoard) => {
-  const chessBoard = document.getElementsByTagName("chess-board")[0];
   const isBlack = chessBoard.classList.contains("flipped");
   const myPieces = isBlack ? BLACK_PIECES : WHITE_PIECES;
   const isMyPiece =
